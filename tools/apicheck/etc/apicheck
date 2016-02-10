@@ -45,4 +45,4 @@ while expr "x$1" : 'x-J' >/dev/null; do
     shift
 done
 
-exec java $javaOpts com.google.doclava.apicheck.ApiCheck "$@"
+#exec java $javaOpts com.google.doclava.apicheck.ApiCheck "$@"
